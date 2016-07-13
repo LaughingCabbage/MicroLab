@@ -1,4 +1,9 @@
-
+;The following is existing code from the powerpoint slides.
+    
+;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+;FORCED CONFIGURATION ADJUSTMENTS FOR NEWER COMPILER + MPLAB
+;MAY NEED TO ADJUST IN LAB
+    
 #include "p16F87.inc"
 
 ; CONFIG1
@@ -7,7 +12,7 @@
 ; CONFIG2
 ; __config 0xFFFF
  __CONFIG _CONFIG2, _FCMEN_ON & _IESO_ON
-
+;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 FSR	equ 0x04
 INDF	equ 0x00
 STATUS	equ 0x03
