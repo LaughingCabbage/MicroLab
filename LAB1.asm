@@ -51,7 +51,8 @@ MAIN:
     movlw 0xE5
     movwf ENDADR
     call FLNXT
-STAYHR:	goto STAYHR
+STAYHR: nop	
+    goto STAYHR
     
 FLNXT: movlw 0x44
     movwf INDF
